@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Answer coach</title>
+  </head>
+  <body>
+  <img src="https://picsum.photos/200/300" alt="image au hasard">
+    <div class = "d-flex justify-content-center mt-5">
+      <form action="/answer" method = "get">
+        <input type="text" name="ask" placeholder = "ask your question" value= "<%= params[:answer] %>">
+        <input type="submit" value="Ask!">
+      </form>
+
+    </div>
+  </body>
+</html>
+<%= console %>
